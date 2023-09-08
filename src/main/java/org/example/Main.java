@@ -43,6 +43,7 @@ public class Main {
         System.out.println(teacher1.withId("102"));
         System.out.println(teacher1.name());
 
-
+        UniversityService uniService = new UniversityService();
+        System.out.println(uniService.averageGrade(flyOnBroom));
     }
 }
