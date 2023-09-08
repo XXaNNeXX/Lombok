@@ -11,14 +11,14 @@ public class Main {
                 .id("1")
                 .name("Anne")
                 .address("Hamburg")
-                .grade('A')
+                .grade(2)
                 .build();
 
         Student student2 = Student.builder()
                 .id("2")
                 .name("Hermine")
                 .address("???")
-                .grade('X')
+                .grade(3)
                 .build();
 
         List<Student> allStudents = new ArrayList<>();
